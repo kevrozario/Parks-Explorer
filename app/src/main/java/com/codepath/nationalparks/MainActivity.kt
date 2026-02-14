@@ -16,5 +16,6 @@ class MainActivity : AppCompatActivity() {
         val fragmentTransaction = supportFragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.content, NationalParksFragment(), null).commit()
 
+
     }
 }
